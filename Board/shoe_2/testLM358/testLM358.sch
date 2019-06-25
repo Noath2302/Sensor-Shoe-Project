@@ -1,0 +1,345 @@
+EESchema Schematic File Version 4
+LIBS:testLM358-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:LM358 U1
+U 1 1 5CE179BA
+P 2400 5100
+F 0 "U1" H 2400 5467 50  0000 C CNN
+F 1 "LM358" H 2400 5376 50  0000 C CNN
+F 2 "" H 2400 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2400 5100 50  0001 C CNN
+	1    2400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U1
+U 3 1 5CE17A7C
+P 1200 5650
+F 0 "U1" H 1158 5696 50  0000 L CNN
+F 1 "LM358" H 1158 5605 50  0000 L CNN
+F 2 "" H 1200 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1200 5650 50  0001 C CNN
+	3    1200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U2
+U 1 1 5CE17B18
+P 4350 5350
+F 0 "U2" H 4350 5717 50  0000 C CNN
+F 1 "LM358" H 4350 5626 50  0000 C CNN
+F 2 "" H 4350 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4350 5350 50  0001 C CNN
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U2
+U 3 1 5CE17B56
+P 1650 5650
+F 0 "U2" H 1608 5696 50  0000 L CNN
+F 1 "LM358" H 1608 5605 50  0000 L CNN
+F 2 "" H 1650 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1650 5650 50  0001 C CNN
+	3    1650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Voltage_Divider RN1
+U 1 1 5CE17C37
+P 3050 5350
+F 0 "RN1" H 2970 5396 50  0000 R CNN
+F 1 "Voltage_Divider" H 2970 5305 50  0000 R CNN
+F 2 "" V 3525 5350 50  0001 C CNN
+F 3 "~" H 3250 5350 50  0001 C CNN
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CE17CD8
+P 1950 4800
+F 0 "R1" H 2020 4846 50  0000 L CNN
+F 1 "R" H 2020 4755 50  0000 L CNN
+F 2 "" V 1880 4800 50  0001 C CNN
+F 3 "~" H 1950 4800 50  0001 C CNN
+	1    1950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CE17D2C
+P 1950 5200
+F 0 "R2" H 2020 5246 50  0000 L CNN
+F 1 "R" H 2020 5155 50  0000 L CNN
+F 2 "" V 1880 5200 50  0001 C CNN
+F 3 "~" H 1950 5200 50  0001 C CNN
+	1    1950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5CE17DBB
+P 4350 5700
+F 0 "RV1" V 4236 5700 50  0000 C CNN
+F 1 "R_POT" V 4145 5700 50  0000 C CNN
+F 2 "" H 4350 5700 50  0001 C CNN
+F 3 "~" H 4350 5700 50  0001 C CNN
+	1    4350 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5CE17E32
+P 850 5050
+F 0 "BT1" H 958 5096 50  0000 L CNN
+F 1 "18650 3.7V" H 958 5005 50  0000 L CNN
+F 2 "" V 850 5110 50  0001 C CNN
+F 3 "~" V 850 5110 50  0001 C CNN
+	1    850  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L shoe_2:MT3068 V1
+U 1 1 5CE181C8
+P 1350 4650
+F 0 "V1" H 1350 4926 50  0000 C CNN
+F 1 "MT3068" H 1350 4835 50  0000 C CNN
+F 2 "" H 1350 4650 50  0001 C CNN
+F 3 "" H 1350 4650 50  0001 C CNN
+	1    1350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4600 850  4600
+Wire Wire Line
+	850  4600 850  4850
+Wire Wire Line
+	850  5250 850  5300
+Wire Wire Line
+	950  4700 950  4750
+$Comp
+L power:GND #PWR02
+U 1 1 5CE18417
+P 950 4750
+F 0 "#PWR02" H 950 4500 50  0001 C CNN
+F 1 "GND" H 955 4577 50  0000 C CNN
+F 2 "" H 950 4750 50  0001 C CNN
+F 3 "" H 950 4750 50  0001 C CNN
+	1    950  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5CE18441
+P 850 5300
+F 0 "#PWR01" H 850 5050 50  0001 C CNN
+F 1 "GND" H 855 5127 50  0000 C CNN
+F 2 "" H 850 5300 50  0001 C CNN
+F 3 "" H 850 5300 50  0001 C CNN
+	1    850  5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4600 1950 4600
+Wire Wire Line
+	1750 4700 1750 4750
+$Comp
+L power:GND #PWR03
+U 1 1 5CE184CE
+P 1750 4750
+F 0 "#PWR03" H 1750 4500 50  0001 C CNN
+F 1 "GND" H 1755 4577 50  0000 C CNN
+F 2 "" H 1750 4750 50  0001 C CNN
+F 3 "" H 1750 4750 50  0001 C CNN
+	1    1750 4750
+	1    0    0    -1  
+$EndComp
+Text Label 1800 4600 0    50   ~ 0
+8v
+Text Label 850  4600 2    50   ~ 0
+3.7v
+$Comp
+L power:GND #PWR04
+U 1 1 5CE18633
+P 1950 5350
+F 0 "#PWR04" H 1950 5100 50  0001 C CNN
+F 1 "GND" H 1955 5177 50  0000 C CNN
+F 2 "" H 1950 5350 50  0001 C CNN
+F 3 "" H 1950 5350 50  0001 C CNN
+	1    1950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4650 1950 4600
+Wire Wire Line
+	1950 4950 1950 5000
+Wire Wire Line
+	1950 5000 2100 5000
+Connection ~ 1950 5000
+Wire Wire Line
+	1950 5000 1950 5050
+Text Label 1950 5000 2    50   ~ 0
+4v
+Wire Wire Line
+	2100 5200 2100 5350
+Wire Wire Line
+	2100 5350 2700 5350
+Wire Wire Line
+	2700 5350 2700 5100
+$Comp
+L power:GND #PWR07
+U 1 1 5CE191B7
+P 3050 5650
+F 0 "#PWR07" H 3050 5400 50  0001 C CNN
+F 1 "GND" H 3055 5477 50  0000 C CNN
+F 2 "" H 3050 5650 50  0001 C CNN
+F 3 "" H 3050 5650 50  0001 C CNN
+	1    3050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5650 3050 5600
+$Comp
+L power:GND #PWR06
+U 1 1 5CE1977B
+P 1100 5950
+F 0 "#PWR06" H 1100 5700 50  0001 C CNN
+F 1 "GND" H 1105 5777 50  0000 C CNN
+F 2 "" H 1100 5950 50  0001 C CNN
+F 3 "" H 1100 5950 50  0001 C CNN
+	1    1100 5950
+	1    0    0    -1  
+$EndComp
+Text Label 1550 5350 0    50   ~ 0
+8v
+$Comp
+L shoe_2:A301 S1
+U 1 1 5CE19BC0
+P 3850 4800
+F 0 "S1" V 3790 4938 50  0000 L CNN
+F 1 "A301" V 3881 4938 50  0000 L CNN
+F 2 "" H 3850 4800 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4900 3900 5450
+Wire Wire Line
+	3900 5450 4000 5450
+Wire Wire Line
+	4050 5250 4050 5150
+Text Label 4050 5150 2    50   ~ 0
+4v
+Wire Wire Line
+	4000 5450 4000 5700
+Wire Wire Line
+	4000 5700 4200 5700
+Connection ~ 4000 5450
+Wire Wire Line
+	4000 5450 4050 5450
+Wire Wire Line
+	4350 5550 4700 5550
+Wire Wire Line
+	4700 5550 4700 5350
+Wire Wire Line
+	4700 5350 4650 5350
+Wire Wire Line
+	4700 5350 4850 5350
+Connection ~ 4700 5350
+Text Label 4850 5350 3    50   ~ 0
+OUTPUT
+Wire Wire Line
+	3200 5700 3800 5700
+Wire Wire Line
+	3200 5550 3200 5700
+$Comp
+L Device:C C1
+U 1 1 5CE6E87E
+P 2800 4800
+F 0 "C1" H 2915 4846 50  0000 L CNN
+F 1 "47uF" H 2915 4755 50  0000 L CNN
+F 2 "" H 2838 4650 50  0001 C CNN
+F 3 "~" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CE6E908
+P 2800 5500
+F 0 "C2" H 2915 5546 50  0000 L CNN
+F 1 "47uF" H 2915 5455 50  0000 L CNN
+F 2 "" H 2838 5350 50  0001 C CNN
+F 3 "~" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5700 3800 5450
+Wire Wire Line
+	3800 4900 3800 5450
+Connection ~ 3800 5450
+$Comp
+L Amplifier_Operational:LM358 U1
+U 2 1 5CE17A29
+P 3500 5450
+F 0 "U1" H 3500 5817 50  0000 C CNN
+F 1 "LM358" H 3500 5726 50  0000 C CNN
+F 2 "" H 3500 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3500 5450 50  0001 C CNN
+	2    3500 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5100 2800 5100
+Connection ~ 2700 5100
+Wire Wire Line
+	2800 5100 2800 4950
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5100 3050 5100
+Wire Wire Line
+	2800 5100 2800 5350
+$Comp
+L power:GND #PWR08
+U 1 1 5CE7120F
+P 2800 5650
+F 0 "#PWR08" H 2800 5400 50  0001 C CNN
+F 1 "GND" H 2805 5477 50  0000 C CNN
+F 2 "" H 2800 5650 50  0001 C CNN
+F 3 "" H 2800 5650 50  0001 C CNN
+	1    2800 5650
+	1    0    0    -1  
+$EndComp
+Text Label 2800 4650 0    50   ~ 0
+8v
+Text Label 1100 5350 0    50   ~ 0
+8v
+$Comp
+L power:GND #PWR05
+U 1 1 5CE7128E
+P 1550 5950
+F 0 "#PWR05" H 1550 5700 50  0001 C CNN
+F 1 "GND" H 1555 5777 50  0000 C CNN
+F 2 "" H 1550 5950 50  0001 C CNN
+F 3 "" H 1550 5950 50  0001 C CNN
+	1    1550 5950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
