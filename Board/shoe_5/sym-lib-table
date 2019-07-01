@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name wemos_mini)(type Legacy)(uri "E:/Program Files/KiCad/share/kicad/library/wemos-d1-mini-kicad/libraries/wemos_mini.lib")(options "")(descr ""))
+)
