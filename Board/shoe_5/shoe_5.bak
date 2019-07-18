@@ -31,7 +31,7 @@ U 1 1 5D12705E
 P 1300 800
 F 0 "SW1" H 1300 1067 50  0000 C CNN
 F 1 "SW_DIP_x01" H 1300 976 50  0000 C CNN
-F 2 "myfootprint:SW" H 1300 800 50  0001 C CNN
+F 2 "myfootprint:SW_small" H 1300 800 50  0001 C CNN
 F 3 "" H 1300 800 50  0001 C CNN
 	1    1300 800 
 	1    0    0    -1  
@@ -57,7 +57,7 @@ U 1 1 5D127174
 P 2100 850
 F 0 "V1" H 2100 1126 50  0000 C CNN
 F 1 "MT3068" H 2100 1035 50  0000 C CNN
-F 2 "myfootprint:MT3086" H 2100 850 50  0001 C CNN
+F 2 "myfootprint:MT3608_module" H 2100 850 50  0001 C CNN
 F 3 "" H 2100 850 50  0001 C CNN
 	1    2100 850 
 	1    0    0    -1  
@@ -195,7 +195,7 @@ U 1 1 5D12857C
 P 2600 2250
 F 0 "RV1" H 2530 2296 50  0000 R CNN
 F 1 "R_POT" H 2530 2205 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2600 2250 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" H 2600 2250 50  0001 C CNN
 F 3 "" H 2600 2250 50  0001 C CNN
 	1    2600 2250
 	1    0    0    -1  
@@ -227,7 +227,7 @@ U 1 1 5D12ABEC
 P 750 3150
 F 0 "S1" V 690 3288 50  0000 L CNN
 F 1 "A301" V 781 3288 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 3150 50  0001 C CNN
 F 3 "" H 750 3150 50  0001 C CNN
 	1    750  3150
 	1    0    0    -1  
@@ -294,7 +294,7 @@ U 1 1 5D131A5B
 P 750 4100
 F 0 "S2" V 690 4238 50  0000 L CNN
 F 1 "A301" V 781 4238 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 4100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 4100 50  0001 C CNN
 F 3 "" H 750 4100 50  0001 C CNN
 	1    750  4100
 	1    0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 5D134A15
 P 2350 3150
 F 0 "S4" V 2290 3288 50  0000 L CNN
 F 1 "A301" V 2381 3288 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 3150 50  0001 C CNN
 F 3 "" H 2350 3150 50  0001 C CNN
 	1    2350 3150
 	1    0    0    -1  
@@ -428,7 +428,7 @@ U 1 1 5D134A3D
 P 2350 4100
 F 0 "S5" V 2290 4238 50  0000 L CNN
 F 1 "A301" V 2381 4238 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 4100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 4100 50  0001 C CNN
 F 3 "" H 2350 4100 50  0001 C CNN
 	1    2350 4100
 	1    0    0    -1  
@@ -495,7 +495,7 @@ U 1 1 5D13882E
 P 750 5000
 F 0 "S3" V 690 5138 50  0000 L CNN
 F 1 "A301" V 781 5138 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 5000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 5000 50  0001 C CNN
 F 3 "" H 750 5000 50  0001 C CNN
 	1    750  5000
 	1    0    0    -1  
@@ -562,7 +562,7 @@ U 1 1 5D13885D
 P 2350 5000
 F 0 "S6" V 2290 5138 50  0000 L CNN
 F 1 "A301" V 2381 5138 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 5000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 5000 50  0001 C CNN
 F 3 "" H 2350 5000 50  0001 C CNN
 	1    2350 5000
 	1    0    0    -1  

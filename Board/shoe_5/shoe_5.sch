@@ -28,16 +28,14 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW1
 U 1 1 5D12705E
-P 1300 800
-F 0 "SW1" H 1300 1067 50  0000 C CNN
-F 1 "SW_DIP_x01" H 1300 976 50  0000 C CNN
-F 2 "myfootprint:SW" H 1300 800 50  0001 C CNN
-F 3 "" H 1300 800 50  0001 C CNN
-	1    1300 800 
+P 1100 800
+F 0 "SW1" H 1100 1067 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1100 976 50  0000 C CNN
+F 2 "myfootprint:SW_small" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	800  800  1000 800 
 $Comp
 L power:GND #PWR01
 U 1 1 5D12712D
@@ -63,11 +61,11 @@ F 3 "" H 2100 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 800  1700 800 
+	1400 800  1450 800 
 Wire Wire Line
 	1700 900  1700 1200
 Wire Wire Line
-	1700 1200 800  1200
+	1700 1200 1450 1200
 Connection ~ 800  1200
 Wire Wire Line
 	1700 1200 2500 1200
@@ -79,7 +77,7 @@ L Device:CP C6
 U 1 1 5D12722F
 P 2700 950
 F 0 "C6" H 2818 996 50  0000 L CNN
-F 1 "CP" H 2818 905 50  0000 L CNN
+F 1 "100uF" H 2818 905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2738 800 50  0001 C CNN
 F 3 "" H 2700 950 50  0001 C CNN
 	1    2700 950 
@@ -195,7 +193,7 @@ U 1 1 5D12857C
 P 2600 2250
 F 0 "RV1" H 2530 2296 50  0000 R CNN
 F 1 "R_POT" H 2530 2205 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 2600 2250 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" H 2600 2250 50  0001 C CNN
 F 3 "" H 2600 2250 50  0001 C CNN
 	1    2600 2250
 	1    0    0    -1  
@@ -227,7 +225,7 @@ U 1 1 5D12ABEC
 P 750 3150
 F 0 "S1" V 690 3288 50  0000 L CNN
 F 1 "A301" V 781 3288 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 3150 50  0001 C CNN
 F 3 "" H 750 3150 50  0001 C CNN
 	1    750  3150
 	1    0    0    -1  
@@ -294,7 +292,7 @@ U 1 1 5D131A5B
 P 750 4100
 F 0 "S2" V 690 4238 50  0000 L CNN
 F 1 "A301" V 781 4238 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 4100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 4100 50  0001 C CNN
 F 3 "" H 750 4100 50  0001 C CNN
 	1    750  4100
 	1    0    0    -1  
@@ -361,7 +359,7 @@ U 1 1 5D134A15
 P 2350 3150
 F 0 "S4" V 2290 3288 50  0000 L CNN
 F 1 "A301" V 2381 3288 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 3150 50  0001 C CNN
 F 3 "" H 2350 3150 50  0001 C CNN
 	1    2350 3150
 	1    0    0    -1  
@@ -428,7 +426,7 @@ U 1 1 5D134A3D
 P 2350 4100
 F 0 "S5" V 2290 4238 50  0000 L CNN
 F 1 "A301" V 2381 4238 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 4100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 4100 50  0001 C CNN
 F 3 "" H 2350 4100 50  0001 C CNN
 	1    2350 4100
 	1    0    0    -1  
@@ -495,7 +493,7 @@ U 1 1 5D13882E
 P 750 5000
 F 0 "S3" V 690 5138 50  0000 L CNN
 F 1 "A301" V 781 5138 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 750 5000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 750 5000 50  0001 C CNN
 F 3 "" H 750 5000 50  0001 C CNN
 	1    750  5000
 	1    0    0    -1  
@@ -562,7 +560,7 @@ U 1 1 5D13885D
 P 2350 5000
 F 0 "S6" V 2290 5138 50  0000 L CNN
 F 1 "A301" V 2381 5138 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 2350 5000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal" H 2350 5000 50  0001 C CNN
 F 3 "" H 2350 5000 50  0001 C CNN
 	1    2350 5000
 	1    0    0    -1  
@@ -643,8 +641,6 @@ F 3 "" H 1100 7400 50  0001 C CNN
 	1    1200 7400
 	1    0    0    -1  
 $EndComp
-Text Label 800  800  2    50   ~ 0
-Source
 Text Label 5650 1050 2    50   ~ 0
 Source
 Text Label 5650 1550 2    50   ~ 0
@@ -919,4 +915,25 @@ F 3 "" H 6150 1931 60  0000 C CNN
 	1    6150 1400
 	1    0    0    -1  
 $EndComp
+Text Label 1650 800  1    50   ~ 0
+Source
+$Comp
+L Device:CP C10
+U 1 1 5D1AF191
+P 1450 950
+F 0 "C10" H 1568 996 50  0000 L CNN
+F 1 "470uF" H 1568 905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1488 800 50  0001 C CNN
+F 3 "" H 1450 950 50  0001 C CNN
+	1    1450 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1100 1450 1200
+Connection ~ 1450 1200
+Wire Wire Line
+	1450 1200 800  1200
+Connection ~ 1450 800 
+Wire Wire Line
+	1450 800  1700 800 
 $EndSCHEMATC
